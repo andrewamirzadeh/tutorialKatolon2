@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('OpenToWebsite'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service'))
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health'), 
@@ -39,4 +41,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcar
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2023'), 
     FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 
