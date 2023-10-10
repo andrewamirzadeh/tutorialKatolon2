@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('OpenToWebsite'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.takeAreaScreenshotAsCheckpoint('homepage', null)
+
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service'), 
     0)
 
