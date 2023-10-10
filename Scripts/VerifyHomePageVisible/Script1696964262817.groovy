@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('OpenToWebsite'), [:], FailureHandling.STOP_ON_F
 
 WebUI.waitForPageLoad(0)
 
-WebUI.takeAreaScreenshotAsCheckpoint('homepage', null)
+WebUI.takeFullPageScreenshotAsCheckpoint('homepage', [])
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service'))
 

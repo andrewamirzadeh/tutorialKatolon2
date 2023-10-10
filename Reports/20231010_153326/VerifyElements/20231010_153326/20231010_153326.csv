@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VerifyElements,Chrome 117.0.0.0,,,2023-10-10 15:33:29,2023-10-10 15:34:02,33.351s,FAILED
+,,,,,,,
+Test Cases/VerifyHomePagePresent,Chrome 117.0.0.0,,,2023-10-10 15:33:42,2023-10-10 15:33:46,3.807s,FAILED
+"callTestCase(findTestCase(""OpenToWebsite""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:33:43,2023-10-10 15:33:46,3.775s,PASSED
+waitForPageLoad(0),Chrome 117.0.0.0,,,2023-10-10 15:33:46,2023-10-10 15:33:46,0.016s,PASSED
+"takeAreaScreenshotAsCheckpoint(""homepage"", null)",Chrome 117.0.0.0,,,2023-10-10 15:33:46,2023-10-10 15:33:46,0.005s,FAILED
+,,,,,,,
+Test Cases/VerifyHomePageVisible,Chrome 117.0.0.0,,,2023-10-10 15:33:58,2023-10-10 15:34:02,3.874s,FAILED
+"callTestCase(findTestCase(""OpenToWebsite""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-10 15:33:58,2023-10-10 15:34:02,3.833s,PASSED
+waitForPageLoad(0),Chrome 117.0.0.0,,,2023-10-10 15:34:02,2023-10-10 15:34:02,0.018s,PASSED
+"takeAreaScreenshotAsCheckpoint(""homepage"", null)",Chrome 117.0.0.0,,,2023-10-10 15:34:02,2023-10-10 15:34:02,0.004s,FAILED
