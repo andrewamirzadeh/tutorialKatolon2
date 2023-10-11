@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>body</value>
-      <webElementGuid>526a3fd2-4047-4108-8478-ea4a65166a02</webElementGuid>
+      <webElementGuid>b5664b3b-c44a-4271-92e2-9848e53d6e9e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -150,7 +150,7 @@
 
 
 id(&quot;txt-username&quot;)</value>
-      <webElementGuid>0ab038bc-f598-4deb-b27f-bdba766ba100</webElementGuid>
+      <webElementGuid>325a4a3f-cbae-459f-a527-9b1341aed071</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -158,7 +158,7 @@ id(&quot;txt-username&quot;)</value>
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]</value>
-      <webElementGuid>5101783f-ba21-4fed-a4d5-31017e1ecc08</webElementGuid>
+      <webElementGuid>462e9410-9391-4c1f-accc-c6742bff4d09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -166,7 +166,7 @@ id(&quot;txt-username&quot;)</value>
       <name>xpath:position</name>
       <type>Main</type>
       <value>//body</value>
-      <webElementGuid>dedefa55-45b1-4eff-9917-9b2b966c7741</webElementGuid>
+      <webElementGuid>2f3ed91b-a658-406c-aec5-298f6ff68d1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -414,6 +414,6 @@ id(&quot;txt-username&quot;)' or . = '
 
 
 id(&quot;txt-username&quot;)')]</value>
-      <webElementGuid>9b8e520f-e35d-4024-98ee-4260ac1130a6</webElementGuid>
+      <webElementGuid>8bef32f5-6a78-45c0-9940-5618ef4989d3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

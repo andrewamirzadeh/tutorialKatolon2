@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VerifyElements,Chrome 117.0.0.0,,,2023-10-11 12:18:03,2023-10-11 12:18:24,20.680s,PASSED
+,,,,,,,
+Test Cases/VerifyHomePagePresent,Chrome 117.0.0.0,,,2023-10-11 12:18:04,2023-10-11 12:18:15,11.194s,PASSED
+"callTestCase(findTestCase(""OpenToWebsite""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:04,2023-10-11 12:18:09,4.966s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,2023-10-11 12:18:09,2023-10-11 12:18:09,0.027s,PASSED
+waitForPageLoad(0),Chrome 117.0.0.0,,,2023-10-11 12:18:09,2023-10-11 12:18:09,0.152s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""homepage"", [])",Chrome 117.0.0.0,,,2023-10-11 12:18:09,2023-10-11 12:18:11,1.858s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:11,2023-10-11 12:18:11,0.378s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:11,2023-10-11 12:18:12,0.328s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:12,2023-10-11 12:18:12,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/strong_CURA Healthcare Service""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:12,2023-10-11 12:18:12,0.330s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:12,2023-10-11 12:18:13,0.322s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/li_(678) 813-1KMS""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:13,2023-10-11 12:18:13,0.326s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/li_infokatalon.com""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:13,2023-10-11 12:18:13,0.331s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/ul_infokatalon.com_list-inline""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:13,2023-10-11 12:18:14,0.330s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2023""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:18:14,2023-10-11 12:18:14,0.330s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-11 12:18:14,2023-10-11 12:18:15,0.712s,PASSED
+,,,,,,,
+Test Cases/VerifyHomePageVisible,Chrome 117.0.0.0,,,2023-10-11 12:18:15,2023-10-11 12:18:24,9.214s,PASSED
+"callTestCase(findTestCase(""OpenToWebsite""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:15,2023-10-11 12:18:18,3.302s,PASSED
+waitForPageLoad(0),Chrome 117.0.0.0,,,2023-10-11 12:18:18,2023-10-11 12:18:18,0.011s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""homepage"", [])",Chrome 117.0.0.0,,,2023-10-11 12:18:18,2023-10-11 12:18:20,1.778s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""))",Chrome 117.0.0.0,,,2023-10-11 12:18:20,2023-10-11 12:18:21,0.374s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:21,2023-10-11 12:18:21,0.341s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:21,2023-10-11 12:18:21,0.337s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/strong_CURA Healthcare Service""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:21,2023-10-11 12:18:22,0.333s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:22,2023-10-11 12:18:22,0.341s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/li_(678) 813-1KMS""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:22,2023-10-11 12:18:22,0.329s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/li_infokatalon.com""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:22,2023-10-11 12:18:23,0.339s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/ul_infokatalon.com_list-inline""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:23,2023-10-11 12:18:23,0.342s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2023""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:18:23,2023-10-11 12:18:23,0.339s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-11 12:18:23,2023-10-11 12:18:24,0.668s,PASSED

@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>3ca70dbd-2d1f-4346-9b9a-f9a8e0878c4b</webElementGuid>
+      <webElementGuid>c0e8b844-2af9-4b91-ba19-173bda503178</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>text-muted</value>
-      <webElementGuid>0fc6e5c1-8f9c-4ae5-83ec-0c1588634438</webElementGuid>
+      <webElementGuid>5ced3bb8-657a-4918-ae22-c9bf32fe84a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Copyright © CURA Healthcare Service 2023</value>
-      <webElementGuid>2162a784-6ca5-4b9a-b0bc-3101f4731948</webElementGuid>
+      <webElementGuid>83072667-ff8d-42b9-b1b7-4d3b594657b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/p[@class=&quot;text-muted&quot;]</value>
-      <webElementGuid>cd90cc95-f28e-43b3-9ebc-a75fd7e219ea</webElementGuid>
+      <webElementGuid>bf3eece0-57b2-4ef5-83f8-2facfc517c29</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='info@katalon.com'])[1]/following::p[1]</value>
-      <webElementGuid>b781c01a-a27b-460e-b579-076802ae5c7a</webElementGuid>
+      <webElementGuid>a02e1ecc-93a0-47eb-a63f-6c2837311bdb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/following::p[1]</value>
-      <webElementGuid>b1e90f41-5519-4bef-bf0f-cc7b8c7de719</webElementGuid>
+      <webElementGuid>1f6ee123-e087-4449-ae6c-327442c34664</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Copyright © CURA Healthcare Service 2023']/parent::*</value>
-      <webElementGuid>2a611499-1363-4769-a3b3-032e025d6c1a</webElementGuid>
+      <webElementGuid>12926176-8b6d-45df-ba36-1ddbed6a83bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p[2]</value>
-      <webElementGuid>4d4947d1-d26a-41c9-a9af-e5f29829d380</webElementGuid>
+      <webElementGuid>89e80fbe-c99b-4e5a-b981-904512795b21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Copyright © CURA Healthcare Service 2023' or . = 'Copyright © CURA Healthcare Service 2023')]</value>
-      <webElementGuid>bd827967-a5c5-4489-9ccd-16308450f7c7</webElementGuid>
+      <webElementGuid>89870eae-e41c-482b-acaf-2d722ebc46a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
