@@ -35,13 +35,13 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_2'))
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_25'))
+WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_25'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/th_'))
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_28'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.takeFullPageScreenshotAsCheckpoint('"Calendar')
 
 WebUI.closeBrowser()
 

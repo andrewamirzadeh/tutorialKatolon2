@@ -39,7 +39,7 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthc
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
+WebUI.takeFullPageScreenshotAsCheckpoint('GetAllLoginElements')
 
 WebUI.closeBrowser()
 

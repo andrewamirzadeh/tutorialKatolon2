@@ -27,11 +27,13 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthc
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('')
-
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare'), 'CURA Healthcare')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Home'), 'Home')
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'), 'Login')
+
+WebUI.takeFullPageScreenshotAsCheckpoint('Accordion')
+
+WebUI.closeBrowser()
 
