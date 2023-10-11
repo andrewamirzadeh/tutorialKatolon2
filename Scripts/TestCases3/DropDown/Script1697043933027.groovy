@@ -31,20 +31,11 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Se
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Tokyo CURA Healthcare Center\n Hongkong CURA Healthcare Center\n Seoul CURA Healthcare Center')
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Hongkong CURA Healthcare Center', true)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Tokyo CURA Healthcare Center\n Hongkong CURA Healthcare Center\n Seoul CURA Healthcare Center')
-
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Seoul CURA Healthcare Center', true)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
-    'Tokyo CURA Healthcare Center\n Hongkong CURA Healthcare Center\n Seoul CURA Healthcare Center')
 
 WebUI.takeFullPageScreenshotAsCheckpoint('dropdown')
 

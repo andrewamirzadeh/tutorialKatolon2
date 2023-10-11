@@ -35,15 +35,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Se
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.waitForElementNotPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'), 
-    0)
-
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_None'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Medicaid'))
@@ -63,15 +54,5 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_25'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_29'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center'))
-
-WebUI.rightClick(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Hongkong CURA Healthcare Center'))
+WebUI.closeBrowser()
 

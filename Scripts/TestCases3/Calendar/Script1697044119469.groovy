@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/th_')
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_28'))
 
-WebUI.takeFullPageScreenshotAsCheckpoint('"Calendar')
+WebUI.takeFullPageScreenshotAsCheckpoint('Calendar')
 
 WebUI.closeBrowser()
 

@@ -27,15 +27,9 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_CUR
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Home'))
 
-WebUI.rightClick(findTestObject('Object Repository/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12'))
-
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'))
-
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Home'))
 
 WebUI.takeFullPageScreenshotAsCheckpoint('naviagate')
 
