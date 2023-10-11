@@ -3,9 +3,9 @@
    <description></description>
    <name>VerifyHomeAndLoginEles</name>
    <tag></tag>
-   <delayBetweenInstances>0</delayBetweenInstances>
+   <delayBetweenInstances>1</delayBetweenInstances>
    <executionMode>SEQUENTIAL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <maxConcurrentInstances>5</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

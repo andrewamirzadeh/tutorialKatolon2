@@ -41,10 +41,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcar
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Visit Date (Required)'), 
     0)
 
-WebUI.rightClick(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/form_Facility                              _20adf0'))
-
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_col-sm-4'), 
     0)
 

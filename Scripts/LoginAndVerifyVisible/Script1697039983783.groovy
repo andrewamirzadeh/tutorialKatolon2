@@ -43,10 +43,6 @@ WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcar
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Visit Date (Required)'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.rightClick(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/form_Facility                              _20adf0'))
-
 WebUI.verifyElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_col-sm-4'), 
     FailureHandling.STOP_ON_FAILURE)
 

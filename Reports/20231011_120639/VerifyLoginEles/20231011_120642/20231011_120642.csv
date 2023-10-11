@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VerifyLoginEles,Chrome 117.0.0.0,,,2023-10-11 12:07:11,2023-10-11 12:10:03,2m - 51.273s,PASSED
+,,,,,,,
+Test Cases/LoginAndVerifyPresent,Chrome 117.0.0.0,,,2023-10-11 12:07:58,2023-10-11 12:08:35,36.951s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:07:58,2023-10-11 12:08:04,6.183s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,2023-10-11 12:08:04,2023-10-11 12:08:05,0.152s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""LoginPage"")",Chrome 117.0.0.0,,,2023-10-11 12:08:05,2023-10-11 12:08:07,2.172s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:07,2023-10-11 12:08:07,0.324s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Facility""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:07,2023-10-11 12:08:07,0.323s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:07,2023-10-11 12:08:08,0.324s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:08,2023-10-11 12:08:08,0.324s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Healthcare Program""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:08,2023-10-11 12:08:08,0.322s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Medicare                               _cb3988""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:08,2023-10-11 12:08:09,0.326s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Visit Date (Required)""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:09,2023-10-11 12:08:09,0.325s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 117.0.0.0,,,2023-10-11 12:08:09,2023-10-11 12:08:10,0.517s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/form_Facility                              _20adf0""))",Chrome 117.0.0.0,,,2023-10-11 12:08:10,2023-10-11 12:08:33,23.844s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_col-sm-4""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:33,2023-10-11 12:08:34,0.438s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Comment""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:34,2023-10-11 12:08:34,0.322s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""), 0)",Chrome 117.0.0.0,,,2023-10-11 12:08:34,2023-10-11 12:08:35,0.323s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-11 12:08:35,2023-10-11 12:08:35,0.718s,PASSED
+,,,,,,,
+Test Cases/LoginAndVerifyVisible,Chrome 117.0.0.0,,,2023-10-11 12:09:20,2023-10-11 12:10:03,42.807s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:20,2023-10-11 12:09:26,6.222s,PASSED
+maximizeWindow(),Chrome 117.0.0.0,,,2023-10-11 12:09:26,2023-10-11 12:09:26,0.146s,PASSED
+waitForPageLoad(0),Chrome 117.0.0.0,,,2023-10-11 12:09:26,2023-10-11 12:09:26,0.018s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""LoginPage"")",Chrome 117.0.0.0,,,2023-10-11 12:09:26,2023-10-11 12:09:28,2.115s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:28,2023-10-11 12:09:29,0.336s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Facility""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:29,2023-10-11 12:09:29,0.341s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:29,2023-10-11 12:09:29,0.331s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Apply for hospital readmission""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:29,2023-10-11 12:09:30,0.337s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Healthcare Program""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:30,2023-10-11 12:09:30,0.339s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Medicare                               _cb3988""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:30,2023-10-11 12:09:30,0.322s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/label_Visit Date (Required)""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:09:30,2023-10-11 12:09:31,0.337s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 117.0.0.0,,,2023-10-11 12:09:31,2023-10-11 12:09:31,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/form_Facility                              _20adf0""))",Chrome 117.0.0.0,,,2023-10-11 12:09:31,2023-10-11 12:10:01,29.599s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_col-sm-4""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:10:01,2023-10-11 12:10:01,0.444s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Comment""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:10:01,2023-10-11 12:10:02,0.329s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""), STOP_ON_FAILURE)",Chrome 117.0.0.0,,,2023-10-11 12:10:02,2023-10-11 12:10:02,0.335s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-10-11 12:10:02,2023-10-11 12:10:03,0.720s,PASSED
